@@ -16,11 +16,16 @@
 		<RepositoryUrl>https://github.com/SadyrbekovKanat/MyOwnResultX</RepositoryUrl>
 		<RepositoryType>git</RepositoryType>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
-		<PackageIcon></PackageIcon>
-		<PackageReadmeFile>../../README.md</PackageReadmeFile>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<AssemblyVersion>1.0.0</AssemblyVersion>
 		<FileVersion>1.0.0</FileVersion>
 		<Version>1.0.0</Version>
 	</PropertyGroup>
+
+	<ItemGroup>
+		<Content Include="../../README.md">
+			<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+		</Content>
+	</ItemGroup>
 
 </Project>
